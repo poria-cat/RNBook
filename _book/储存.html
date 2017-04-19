@@ -1,0 +1,448 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第六章. 储存 · React Native小黄书</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="茯苓猫">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="附录：样式.html" />
+    
+    
+    <link rel="prev" href="是时候说说样式与布局了.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    序言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="ReactNative介绍.html">
+            
+                <a href="ReactNative介绍.html">
+            
+                    
+                    第一章. React Native介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="ReactNative基础.html">
+            
+                <a href="ReactNative基础.html">
+            
+                    
+                    第二章. React Native基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="启动你的App.html">
+            
+                <a href="启动你的App.html">
+            
+                    
+                    第三章. 启动你的App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="一些一定要知道的组件.html">
+            
+                <a href="一些一定要知道的组件.html">
+            
+                    
+                    第四章. 一些一定要知道的组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="是时候说说样式与布局了.html">
+            
+                <a href="是时候说说样式与布局了.html">
+            
+                    
+                    第五章. 是时候说说样式与布局了
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="储存.html">
+            
+                <a href="储存.html">
+            
+                    
+                    第六章. 储存
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="附录：样式.html">
+            
+                <a href="附录：样式.html">
+            
+                    
+                    附录： 样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第六章. 储存</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x50A8;&#x5B58;">&#x50A8;&#x5B58;</h1>
+<p>&#x672C;&#x7AE0;&#x63D0;&#x8981;</p>
+<ul>
+<li>AsyncStorage </li>
+<li>Realm
+&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x603B;&#x662F;&#x8981;&#x5B58;&#x4E9B;&#x4E1C;&#x897F;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x600E;&#x4E48;&#x505A;&#x624D;&#x80FD;&#x628A;&#x6570;&#x636E;&#x5B58;&#x8D77;&#x6765;&#x5462;&#xFF1F;&#x6211;&#x4EEC;&#x8FD9;&#x91CC;&#x6709;&#x4E24;&#x4E2A;&#x9009;&#x62E9;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x4F7F;&#x7528;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;AsyncStorage&#x53E6;&#x4E00;&#x4E2A;&#x662F;&#x4F7F;&#x7528;&#x5C0F;&#x578B;&#x6570;&#x636E;&#x5E93;&#x3002;</li>
+</ul>
+<p>&#x5F53;&#x6570;&#x636E;&#x91CF;&#x4E0D;&#x5927;&#xFF0C;&#x7ED3;&#x6784;&#x5F88;&#x7B80;&#x5355;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x4F7F;&#x7528;AsyncStorage&#x8FD9;&#x4E2A;key-value&#x50A8;&#x5B58;&#x7CFB;&#x7EDF;&#xFF0C;&#x5F53;&#x6570;&#x636E;&#x91CF;&#x8F83;&#x5927;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x5C0F;&#x578B;&#x6570;&#x636E;&#x5E93;&#x4E86;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;
+&#x4F1A;&#x5B66;&#x4E60;&#x4E00;&#x4E2A;&#x53EB;&#x505A;Realm&#x7684;&#x6570;&#x636E;&#x5E93;&#x3002;</p>
+<p>&#x9996;&#x5148;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x770B;AsyncStorage&#x5427;~</p>
+<h2 id="asyncstorage">AsyncStorage</h2>
+<p>&#x4E0E;&#x6570;&#x636E;&#x6253;&#x4EA4;&#x9053;&#xFF0C;&#x514D;&#x4E0D;&#x4E86;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x589E;&#x52A0;&#xFF0C;&#x5220;&#x9664;&#xFF0C;&#x66F4;&#x6539;&#x548C;&#x67E5;&#x627E;&#x3002;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x770B;&#x5982;&#x4F55;&#x7528;AsyncStorage&#x5B9E;&#x73B0;&#x8FD9;&#x4E9B;&#x3002;</p>
+<p>&#x589E;&#x52A0;&#x6570;&#x636E;&#xFF1A;</p>
+<pre><code>save(key, value) {
+  AsyncStorage.setItem(key,value).then(
+    (errs)=&gt;{
+      if (!errs) {
+        //xxx
+      }else {
+        //xxx
+      }
+    })  
+}
+</code></pre><p>&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x4E86;promise&#xFF0C;&#x8FD9;&#x6837;&#x4F1A;&#x4F7F;&#x4EE3;&#x7801;&#x770B;&#x8D77;&#x6765;&#x8212;&#x670D;&#x5F88;&#x591A;&#x3002;&#x867D;&#x7136;&#x770B;&#x8D77;&#x6765;&#x5F88;&#x591A;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x53EA;&#x8981;&#x77E5;&#x9053;</p>
+<pre><code>AsyncStorage.setItem(key,value)
+</code></pre><p>&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x7528;<code>setItem</code>&#x6765;&#x5C06;key&#x548C;value&#x5B58;&#x50A8;&#x8D77;&#x6765;&#xFF0C;&#x770B;&#x5230;&#x8FD9;&#x91CC;&#x60F3;&#x5FC5;&#x4F60;&#x5DF2;&#x7ECF;&#x77E5;&#x9053;&#x4E86;&#x4E3A;&#x4EC0;&#x4E48;AsyncStorage&#x662F;key-value&#x7CFB;&#x7EDF;&#x4E86;&#x3002;</p>
+<p>&#x7531;&#x4E8E;&#x6709;&#x4E86;key&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;key&#x8FDB;&#x884C;&#x67E5;&#x8BE2;&#xFF1A;</p>
+<pre><code>get(key) {
+   AsyncStorage.getItem(key)
+            .then(  
+                (result)=&gt; {   
+                    if (!result) {
+                      //xxx
+                    }
+                    //&#x8FD4;&#x56DE;&#x7ED3;&#x679C;
+                }
+            ).catch((error)=&gt; {  
+              //&#x9519;&#x8BEF;&#x5904;&#x7406;
+        }
+}
+</code></pre><p>&#x6570;&#x636E;&#x6211;&#x4EEC;&#x5B58;&#x5B8C;&#x4E86;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x6570;&#x636E;&#x6CA1;&#x7528;&#x4E86;&#x600E;&#x4E48;&#x529E;&#xFF1F;&#x5220;&#x6389;&#x5457;&#x3002;&#x548C;&#x67E5;&#x8BE2;&#x6570;&#x636E;&#x5F88;&#x50CF;&#xFF0C;&#x5220;&#x9664;&#x4E5F;&#x9700;&#x8981;&#x7528;&#x5230;key&#xFF1A;</p>
+<pre><code>del(key) {
+   AsyncStorage.removeItem(key).
+            then(
+            ()=&gt;{
+              //&#x5220;&#x9664;&#x6210;&#x529F;
+            }
+          ).catch((error)=&gt; {  
+              //&#x9519;&#x8BEF;&#x5904;&#x7406;
+        }
+}
+</code></pre><p>&#x81F3;&#x4E8E;&#x4FEE;&#x6539;&#x6570;&#x636E;&#xFF0C;&#x5176;&#x5B9E;&#x5199;&#x6CD5;&#x548C;&#x589E;&#x52A0;&#x6570;&#x636E;&#x4E00;&#x6837;&#xFF0C;&#x5F53;&#x4F60;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4E00;&#x9879;&#x6570;&#x636E;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x76F4;&#x63A5;&#x4F20;&#x5165;key&#x548C;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x503C;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;</p>
+<h2 id="realm">Realm</h2>
+<p>&#x524D;&#x9762;&#x7684;AsyncStorage&#x53EA;&#x80FD;&#x5B58;&#x4E9B;&#x5C0F;&#x4E1C;&#x897F;&#xFF0C;&#x6570;&#x636E;&#x91CF;&#x4E00;&#x5927;&#x5C31;&#x5F00;&#x59CB;&#x6349;&#x895F;&#x89C1;&#x8098;&#x4E86;&#xFF0C;&#x5230;&#x4E86;&#x8FD9;&#x79CD;&#x65F6;&#x5019;&#x5C31;&#x8BE5;&#x7528;Realm&#x4E86;&#x3002;
+&#x5176;&#x5B9E;&#x7528;SQLite&#x4E5F;&#x884C;&#xFF0C;&#x4E0D;&#x8FC7;&#x4E0D;&#x600E;&#x4E48;&#x597D;&#x7528;&#xFF0C;&#x7D22;&#x6027;&#x5C31;&#x4E0D;&#x7528;&#x4E86;&#x3002;&#x5F53;&#x521D;&#x4F5C;&#x8005;&#x541B;&#x5728;&#x7528;Realm&#x7684;&#x65F6;&#x5019;&#x7248;&#x672C;&#x53F7;&#x624D;&#x662F;0.14&#x8F6C;&#x773C;&#x95F4;&#x5C31;&#x5230;1.0.0&#x4E86;&#xFF0C;&#x6240;&#x4EE5;&#x8BF7;&#x653E;&#x5FC3;&#x7684;&#x4F7F;&#x7528;Realm&#x5427;&#x3002;</p>
+<p>Realm&#x5E76;&#x4E0D;&#x662F;React Native&#x81EA;&#x5DF1;&#x5C31;&#x6709;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5B89;&#x88C5;Realm&#xFF1A;</p>
+<pre><code>npm install --save realm
+</code></pre><p>&#x5B89;&#x88C5;&#x597D;&#x540E;&#x5927;&#x6982;&#x662F;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><img src="images/6.1.png" alt="PNG">  </p>
+<p>&#x7136;&#x540E;&#x6267;&#x884C;</p>
+<pre><code>react-native link realm
+</code></pre><p><img src="images/6.2.png" alt="PNG">  </p>
+<p>&#x88C5;&#x5B8C;Realm&#x4E4B;&#x540E;&#x5F97;&#x91CD;&#x65B0;&#x6784;&#x5EFA;&#x4E00;&#x4E0B;App&#xFF1A;</p>
+<pre><code>react-native run-android
+</code></pre><p><em>Tips&#xFF1A;&#x7531;&#x4E8E;&#x7F51;&#x7EDC;&#x7684;&#x95EE;&#x9898;&#x5462;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x6784;&#x5EFA;&#x5931;&#x8D25;&#xFF0C;&#x591A;&#x8BD5;&#x51E0;&#x6B21;&#x5C31;&#x53EF;&#x4EE5;&#x6784;&#x5EFA;&#x5B8C;&#x6210;&#x4E86;</em></p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x6D4B;&#x8BD5;&#x4E00;&#x4E0B;Realm&#x662F;&#x4E0D;&#x662F;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x4E86;&#xFF0C;&#x5148;&#x662F;&#x5F15;&#x5165;Realm&#xFF1A;</p>
+<pre><code>import Realm from &apos;realm&apos;;
+</code></pre><p>&#x4E0B;&#x9762;&#x662F;Realm&#x5B98;&#x65B9;&#x6587;&#x6863;&#x7684;&#x4F8B;&#x5B50;&#x7684;&#xFF1A;</p>
+<pre><code>export default class &lt;project-name&gt; extends Component {
+  render() {
+    let realm = new Realm({
+     schema: [{name: &apos;Dog&apos;, properties: {name: &apos;string&apos;}}]
+   });
+
+   realm.write(() =&gt; {
+     realm.create(&apos;Dog&apos;, {name: &apos;Rex&apos;});
+   });
+    return (
+      &lt;View style={styles.container}&gt;
+        &lt;Text style={styles.welcome}&gt;
+          Count of Dogs in Realm: {realm.objects(&apos;Dog&apos;).length}
+        &lt;/Text&gt;
+      &lt;/View&gt;
+    );
+  }
+}
+</code></pre><p><code>&lt;project-name&gt;</code>&#x662F;&#x4F60;&#x7684;&#x9879;&#x76EE;&#x540D;&#x79F0;&#xFF0C;&#x522B;&#x5F04;&#x9519;&#x4E86;&#x3002;&#x7136;&#x540E;&#x5237;&#x65B0;&#x4E00;&#x4E0B;&#xFF0C;&#x754C;&#x9762;&#x4E0A;&#x7684;&#x6570;&#x5B57;&#x5C31;&#x4F1A;&#x52A0;1&#x3002;&#x5982;&#x679C;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x987A;&#x5229;&#x8FD0;&#x884C;&#xFF0C;
+Realm&#x5C31;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x597D;&#x4E86;&#x3002;</p>
+<p>&#x5148;&#x7B80;&#x5355;&#x7684;&#x89E3;&#x91CA;&#x4E00;&#x4E0B;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x9996;&#x5148;&#x6211;&#x4EEC;&#x65B0;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x53EB;&#x505A;Dog&#x7684;Schema&#xFF0C;&#x4E0B;&#x9762;&#x7684;<code>write</code>&#x662F;&#x5199;&#x5165;&#x6570;&#x636E;&#xFF0C;&#x7EC4;&#x4EF6;&#x4E2D;&#x7684;
+<code>realm.objects(&apos;Dog&apos;).length</code>&#x4F1A;&#x8FD4;&#x56DE;Dog&#x4E2D;&#x7684;&#x6570;&#x636E;&#x4E2A;&#x6570;&#x3002;&#x6BCF;&#x6B21;&#x5237;&#x65B0;App&#xFF0C;&#x90FD;&#x4F1A;&#x5199;&#x5165;&#x4E00;&#x6761;&#x6570;&#x636E;&#xFF0C;&#x6240;&#x4EE5;&#x6570;&#x5B57;&#x4F1A;&#x52A0;&#x4E00;&#x3002;</p>
+<p>&#x6709;&#x4E86;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x8BA4;&#x8BC6;&#x4E4B;&#x540E;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x6765;&#x8BE6;&#x7EC6;&#x7684;&#x4E86;&#x89E3;Realm&#x5427;&#xFF01;</p>
+<h3 id="schema">Schema</h3>
+<p>&#x5728;&#x4F7F;&#x7528;Realm&#x7684;&#x65F6;&#x5019;&#x79BB;&#x4E0D;&#x5F00;Schema&#xFF0C;&#x4E00;&#x4E2A;&#x5927;&#x4E9B;&#x7684;App&#x4E00;&#x822C;&#x4F1A;&#x7528;&#x5230;&#x591A;&#x4E2A;Schema&#xFF0C;&#x6240;&#x4EE5;&#x5728;&#x6B63;&#x5F0F;&#x4F7F;&#x7528;Realm&#x7684;&#x65F6;&#x5019;
+&#x4E0D;&#x80FD;&#x50CF;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x4E00;&#x6837;&#x6577;&#x884D;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x5C01;&#x88C5;&#x3002;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB;Schema.js&#x6587;&#x4EF6;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x5728;app&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#xFF08;&#x6CA1;&#x6709;app&#x6587;&#x4EF6;&#x5939;&#x5C31;&#x81EA;&#x5DF1;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#xFF09;&#xFF0C;</p>
+<p>&#x5728;&#x6587;&#x4EF6;&#x5934;&#x90E8;&#x5F15;&#x5165;Realm&#xFF1A;</p>
+<pre><code>import Realm from &apos;realm&apos;;
+</code></pre><p>&#x7136;&#x540E;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB;Todo&#x7684;class&#xFF1A;</p>
+<pre><code>class Todo extends Realm.Object {}
+</code></pre><p>&#x4E0D;&#x559C;&#x6B22;&#x8FD9;&#x4E2A;&#x540D;&#x5B57;&#x7684;&#x8BDD;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x968F;&#x4FBF;&#x8D77;&#x4E00;&#x4E2A;&#x540D;&#x5B57;&#x3002;</p>
+<p>&#x7136;&#x540E;&#x6765;&#x5199;Schema&#xFF1A;</p>
+<pre><code>Todo.schema = {
+    name:&apos;Todo&apos;,
+    primaryKey: &apos;id&apos;,
+    properties: {
+        title: {type: &apos;string&apos;},
+        id: {type: &apos;string&apos;, indexed: true},
+    }
+}
+</code></pre><p>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x7528;id&#x6765;&#x4F5C;&#x4E3A;&#x4E3B;&#x952E;&#xFF0C;&#x7531;&#x4E8E;&#x8FD9;&#x4E2A;id&#x5177;&#x6709;&#x552F;&#x4E00;&#x6027;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x4F1A;&#x513F;&#x4F1A;&#x5199;&#x4E00;&#x4E2A;&#x5C0F;&#x7A0B;&#x5E8F;&#x6765;&#x751F;&#x6210;id&#x3002; </p>
+<p>&#x7136;&#x540E;&#x5BFC;&#x51FA;&#x6A21;&#x5757;&#xFF1A;</p>
+<pre><code>export default new Realm({schema: Todo})
+</code></pre><p>&#x5982;&#x679C;&#x4F60;&#x9700;&#x8981;&#x591A;&#x4E2A;Schema&#xFF0C;&#x5199;&#x6CD5;&#x548C;Todo&#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x6700;&#x540E;&#x5BFC;&#x51FA;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF1A;</p>
+<pre><code>export default new Realm({schema: [Todo, Category, xxx, xxx]})
+</code></pre><p>&#x7136;&#x540E;&#x5728;&#x4F60;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x50A8;&#x5B58;&#x7684;&#x5730;&#x65B9;&#x5F15;&#x5165;Schema.js&#x3002;</p>
+<p>&#x6BD4;&#x5982;&#x8FD9;&#x6837;&#x5F15;&#x5165;&#xFF1A;</p>
+<pre><code>import realm from &apos;./Schema&apos;;
+//&#x6CE8;&#x610F;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="是时候说说样式与布局了.html" class="navigation navigation-prev " aria-label="Previous page: 第五章. 是时候说说样式与布局了">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="附录：样式.html" class="navigation navigation-next " aria-label="Next page: 附录： 样式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第六章. 储存","level":"1.7","depth":1,"next":{"title":"附录： 样式","level":"2.1","depth":1,"path":"附录：样式.md","ref":"附录：样式.md","articles":[]},"previous":{"title":"第五章. 是时候说说样式与布局了","level":"1.6","depth":1,"path":"是时候说说样式与布局了.md","ref":"是时候说说样式与布局了.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"茯苓猫","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React Native小黄书","gitbook":"*"},"file":{"path":"储存.md","mtime":"2017-04-19T12:07:44.830Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-19T11:49:55.005Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

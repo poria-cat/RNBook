@@ -1,0 +1,440 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第五章. 是时候说说样式与布局了 · React Native小黄书</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="茯苓猫">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="储存.html" />
+    
+    
+    <link rel="prev" href="一些一定要知道的组件.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    序言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="ReactNative介绍.html">
+            
+                <a href="ReactNative介绍.html">
+            
+                    
+                    第一章. React Native介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="ReactNative基础.html">
+            
+                <a href="ReactNative基础.html">
+            
+                    
+                    第二章. React Native基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="启动你的App.html">
+            
+                <a href="启动你的App.html">
+            
+                    
+                    第三章. 启动你的App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="一些一定要知道的组件.html">
+            
+                <a href="一些一定要知道的组件.html">
+            
+                    
+                    第四章. 一些一定要知道的组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="是时候说说样式与布局了.html">
+            
+                <a href="是时候说说样式与布局了.html">
+            
+                    
+                    第五章. 是时候说说样式与布局了
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="储存.html">
+            
+                <a href="储存.html">
+            
+                    
+                    第六章. 储存
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="附录：样式.html">
+            
+                <a href="附录：样式.html">
+            
+                    
+                    附录： 样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第五章. 是时候说说样式与布局了</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x662F;&#x65F6;&#x5019;&#x8BF4;&#x8BF4;&#x6837;&#x5F0F;&#x4E0E;&#x5E03;&#x5C40;&#x4E86;">&#x662F;&#x65F6;&#x5019;&#x8BF4;&#x8BF4;&#x6837;&#x5F0F;&#x4E0E;&#x5E03;&#x5C40;&#x4E86;</h1>
+<p>&#x672C;&#x7AE0;&#x63D0;&#x8981;</p>
+<ul>
+<li>&#x6837;&#x5F0F;</li>
+<li>&#x5E03;&#x5C40;</li>
+<li>Dimensions</li>
+</ul>
+<h2 id="&#x6837;&#x5F0F;">&#x6837;&#x5F0F;</h2>
+<p>&#x5728;&#x524D;&#x51E0;&#x7AE0;&#x8BF4;&#x4E86;&#x4E00;&#x4E9B;&#x6837;&#x5F0F;&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x6709;&#x70B9;&#x61F5;&#x4E86;&#x5462;&#xFF1F;&#x6CA1;&#x5173;&#x7CFB;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x8D77;&#x770B;&#x770B;&#x6837;&#x5F0F;&#x5728;React Native&#x4E2D;&#x7684;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x5728;React Native&#x4E2D;&#xFF0C;&#x5199;&#x6837;&#x5F0F;&#x548C;&#x5199;CSS&#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x662F;&#x628A;<code>-</code>&#x7684;&#x8FDE;&#x63A5;&#x65B9;&#x5F0F;&#x6362;&#x6210;&#x4E86;&#x5C0F;&#x9A7C;&#x5CF0;&#x5F0F;&#x3002;&#x53C8;&#x628A;<code>;</code>&#x6362;&#x6210;&#x4E86;<code>,</code>&#xFF0C;&#x6709;&#x7684;&#x65F6;&#x5019;&#x8981;&#x628A;&#x503C;&#x52A0;&#x4E0A;&#x5206;&#x53F7;&#xFF0C;&#x6BD4;&#x5982;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code>background-color: green; ---&gt;  backgroundColor: &apos;green&apos;,
+</code></pre><p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;React Native&#x7684;&#x6837;&#x5F0F;&#x7B97;&#x662F;CSS&#x7684;&#x4E00;&#x4E2A;&#x5B50;&#x96C6;&#xFF0C;&#x5F53;&#x53D1;&#x73B0;&#x6709;&#x4E9B;&#x6837;&#x5F0F;&#x4E0D;&#x80FD;&#x7528;&#x7684;&#x8BDD;&#x4E0D;&#x8981;&#x60CA;&#x8BB6;&#xFF0C;&#x8BD5;&#x7740;&#x6362;&#x7528;&#x522B;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#x5C31;&#x597D;~</p>
+<p>&#x4F5C;&#x8005;&#x541B;&#x603B;&#x7ED3;&#x4E86;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x7684;&#x6837;&#x5F0F;&#x653E;&#x5230;&#x4E86;&#x9644;&#x5F55;&#x91CC;&#xFF0C;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x5199;&#x6837;&#x5F0F;&#x65F6;&#x7684;&#x53C2;&#x8003;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x77E5;&#x9053;&#xFF0C;&#x4EE3;&#x7801;&#x603B;&#x662F;&#x4F1A;&#x8D8A;&#x5199;&#x8D8A;&#x591A;&#xFF0C;&#x6837;&#x5F0F;&#x4E5F;&#x4E00;&#x6837;&#x3002;&#x6240;&#x4EE5;&#x4E3A;&#x4E86;&#x6548;&#x7387;&#xFF0C;&#x4E3A;&#x4E86;&#x6837;&#x5F0F;&#x7684;&#x6574;&#x6D01;&#xFF0C;&#x6211;&#x4EEC;&#x5199;&#x6837;&#x5F0F;&#x7528;<code>StyleSheet.create</code>&#x6BD4;&#x8F83;&#x597D;&#xFF0C;&#x4E0D;&#x8FC7;&#x53EA;&#x662F;&#x5199;&#x7740;&#x73A9;&#x73A9;&#x7684;&#x8BDD;&#xFF0C;
+&#x600E;&#x4E48;&#x5199;&#x90FD;&#x597D;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x770B;&#x8FD9;&#x79CD;&#x5B9A;&#x4E49;&#x6837;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;</p>
+<pre><code>const styles = StyleSheet.create({
+    content: {
+        backgroundColor: &apos;#fff&apos;,
+        height: 50,
+        width: 100
+    },
+    text: {
+        color: &apos;blue&apos;,
+        textAlign: &apos;center&apos;
+    }
+})
+</code></pre><p>&#x7136;&#x540E;&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x8FD9;&#x6837;&#x4F7F;&#x7528;&#x5373;&#x53EF;:</p>
+<pre><code>&lt;View style={styles.content}&gt;
+    &lt;Text style={styles.text}&gt;&#x54C8;&#xFF0C;&#x6211;&#x662F;&#x5C0F;&#x6574;&#x6D01;&lt;/Text&gt;
+    .....
+&lt;/View&gt;
+</code></pre><p>&#x8FD9;&#x6837;&#x5199;&#x540E;&#xFF0C;&#x4F60;&#x7684;&#x4EE3;&#x7801;&#x53EF;&#x8BFB;&#x6027;&#x4F1A;&#x63D0;&#x9AD8;&#x4E0D;&#x5C11;&#xFF0C;&#x6BD5;&#x7ADF;&#x6837;&#x5F0F;&#x90FD;&#x50CF;&#xFF1A;</p>
+<pre><code>&lt;Text style={{ fontStyle:&apos;italic&apos;, fontSize: 20,... }}
+</code></pre><p>&#x5C31;&#x4F1A;&#x53D8;&#x5F97;&#x4E71;&#x7CDF;&#x7CDF;&#x4E00;&#x56E2;&#x56E2;&#x4E86;&#x3002;</p>
+<h2 id="&#x5E03;&#x5C40;">&#x5E03;&#x5C40;</h2>
+<h3 id="flexbox">Flexbox</h3>
+<p>&#x5728;React Native&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x6109;&#x5FEB;&#x7684;&#x4F7F;&#x7528;Flexbox&#x5E03;&#x5C40;&#xFF0C;&#x5B8C;&#x5168;&#x4E0D;&#x7528;&#x8003;&#x8651;&#x517C;&#x5BB9;&#x6027;&#xFF08;&#x653E;&#x5FC3;&#xFF0C;&#x7EDD;&#x5BF9;&#x4E0D;&#x9700;&#x8981;&#x8003;&#x8651;IE6&#xFF09;,
+&#x5982;&#x679C;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x7AEF;&#x5199;&#x8FC7;&#x7684;&#x8BDD;&#xFF0C;&#x5728;React Native&#x4E0A;&#x7EE7;&#x7EED;&#x5199;&#x8FD9;&#x79CD;&#x5E03;&#x5C40;&#x4F1A;&#x5F88;&#x662F;&#x5F97;&#x5FC3;&#x5E94;&#x624B;&#x7684;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x63A5;&#x89E6;&#x8FC7;&#x4E5F;&#x6CA1;&#x5173;&#x7CFB;&#xFF0C;&#x8FD9;&#x91CC;&#x4F1A;&#x5F88;&#x8BE6;&#x7EC6;&#x7684;&#x8BB2;&#x7684;&#xFF08;&#x6BD5;&#x7ADF;&#x5F88;&#x91CD;&#x8981;&#xFF09;&#x3002;</p>
+<p>&#x9996;&#x5148;&#xFF0C;&#x6211;&#x4EEC;&#x5148;&#x7785;&#x7785;Flexbox&#x5E03;&#x5C40;&#x9700;&#x8981;&#x7528;&#x5230;&#x4EC0;&#x4E48;&#x6837;&#x5F0F;&#xFF1A;</p>
+<pre><code>flex, flexDiretion, justifyCotent, alignItems, alignSelf, flexWrap, flexShrink, flexGrow
+</code></pre><p>&#x55EF;&#xFF0C;&#x5148;&#x628A;&#x8FD9;&#x4E9B;&#x5217;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x6709;&#x4E2A;&#x5927;&#x6982;&#x5370;&#x8C61;&#x5C31;&#x6210;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x4F1A;&#x513F;&#x518D;&#x8BF4;&#x3002;</p>
+<p>&#x5BF9;&#x4E8E;Flexbox&#x6765;&#x8BF4;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x6982;&#x5FF5;&#x2014;&#x2014;&#x2014;&#x2014;&#x8F74;&#x3002;&#x7406;&#x89E3;&#x4E86;&#x8F74;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4F7F;&#x7528;Flexbox&#x4E5F;&#x4E0D;&#x4F1A;&#x6709;&#x4EC0;&#x4E48;&#x95EE;&#x9898;&#x4E86;&#x3002;</p>
+<p>&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x5E73;&#x9762;&#x6765;&#x8BF4;&#xFF0C;&#x5B83;&#x6709;&#x4E24;&#x4E2A;&#x8F74;&#xFF0C;&#x6A2A;&#x8F74;&#x548C;&#x7EB5;&#x8F74;&#xFF0C;&#x5C31;&#x662F;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#xFF1A; </p>
+<p><img src="images/5.1.png" alt="PNG">  </p>
+<p>Flexbox&#x7528;&#x64CD;&#x4F5C;&#x8FD9;&#x4E24;&#x4E2A;&#x8F74;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5B8C;&#x6210;&#x5E03;&#x5C40;&#xFF0C;&#x4E0D;&#x8FC7;&#x4E0D;&#x53EB;&#x6A2A;&#x7EB5;&#x800C;&#x662F;&#x53EB;&#x4E3B;&#x6B21;&#x3002;</p>
+<p>&#x5F53;&#x6A2A;&#x8F74;&#x4E3A;&#x4E3B;&#x8F74;&#x65F6;&#xFF0C;&#x6B21;&#x8F74;&#x662F;&#x7EB5;&#x8F74;&#xFF1A;</p>
+<p><img src="images/5.2.png" alt="PNG">  </p>
+<p>&#x5F53;&#x7EB5;&#x8F74;&#x4E3A;&#x4E3B;&#x8F74;&#x65F6;&#xFF0C;&#x6B21;&#x8F74;&#x662F;&#x6A2A;&#x8F74;&#xFF1A;</p>
+<p><img src="images/5.3.png" alt="PNG">  </p>
+<p>&#x770B;&#x5B8C;&#x9884;&#x5907;&#x77E5;&#x8BC6;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x770B;Flexbox&#x662F;&#x600E;&#x4E48;&#x7528;&#x7684;&#x4E86;&#x3002;</p>
+<p>&#x9996;&#x5148;&#xFF0C;&#x8981;&#x6709;&#x4E00;&#x4E2A;flex&#x5BB9;&#x5668;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;&#x9AD8;&#x5EA6;&#x548C;&#x5BBD;&#x5EA6;&#xFF0C;&#x5B83;&#x4F1A;&#x5360;&#x6EE1;&#x80FD;&#x591F;&#x5360;&#x9886;&#x7684;&#x6700;&#x5927;&#x7A7A;&#x95F4;&#xFF0C;&#x5982;&#x679C;&#x7ED9;&#x4E86;&#x9AD8;&#x5EA6;&#x548C;&#x5BBD;&#x5EA6;&#xFF0C;&#x90A3;&#x4E48;&#x4F1A;&#x5360;&#x6EE1;&#x4F60;&#x7ED9;&#x5B83;&#x7684;&#x7A7A;&#x95F4;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x7528;<code>flex</code>&#x544A;&#x8BC9;React Native&#x8BF4;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x4F7F;&#x7528;&#x4E86;&#x5F39;&#x6027;&#x5E03;&#x5C40;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code>&lt;View style={{ flex:1 }}&gt;&lt;/View&gt;
+</code></pre><p>flex&#x540E;&#x9762;&#x7684;&#x6570;&#x5B57;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x4E3A;&#x6BD4;&#x4F8B;</p>
+<p>&#x4E0D;&#x8FC7;&#x5462;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x822C;&#x4E0D;&#x4F1A;&#x53EA;&#x5199;&#x4E2A;<code>flex: 1</code>&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x5F97;&#x5199;&#x4E00;&#x4E9B;&#x522B;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x5C31;&#x50CF;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code>&lt;View style={{ flex: 1, flexDirection: &apos;column&apos;, justifyContent:&apos;center&apos;, alignItems:&apos;flex-end&apos; }}&gt;
+&lt;/View&gt;
+</code></pre><p>&#x9664;&#x4E86;<code>flex: 1</code>&#xFF0C;&#x5269;&#x4E0B;&#x7684;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x7528;&#x6765;&#x64CD;&#x4F5C;&#x6A2A;&#x7EB5;&#x8F74;&#x7684;&#x3002;
+&#x7528;<code>flexDirection</code>&#x58F0;&#x660E;&#x4E3B;&#x8F74;&#x662F;&#x7EB5;&#x8F74;&#xFF0C;&#x6B21;&#x8F74;&#x662F;&#x6A2A;&#x8F74;&#xFF0C;&#x7528;<code>justifyContent</code>&#x58F0;&#x660E;&#x5143;&#x7D20;&#x5904;&#x5728;&#x4E3B;&#x8F74;&#x7684;&#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;&#xFF0C;&#x7528;<code>alignItems</code>&#x58F0;&#x660E;&#x5143;&#x7D20;&#x5904;&#x5728;
+&#x6B21;&#x8F74;&#x7684;&#x672B;&#x5C3E;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x5728;<code>View</code>&#x5BB9;&#x5668;&#x91CC;&#x586B;&#x5145;&#x4E00;&#x4E9B;&#x5143;&#x7D20;&#x8FDB;&#x53BB;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5F88;&#x76F4;&#x89C2;&#x7684;&#x770B;&#x5230;&#x6548;&#x679C;&#xFF1A;</p>
+<pre><code>&lt;View style={{ flex: 1, flexDirection: &apos;column&apos;, justifyContent:&apos;center&apos;, alignItems:&apos;flex-end&apos; }}&gt;
+    &lt;Text style={{ backgroundColor:&apos;blue&apos;}} &gt;1&lt;/Text&gt;
+    &lt;Text style={{ backgroundColor:&apos;red&apos; }}&gt;2&lt;/Text&gt;
+    &lt;Text style={{ backgroundColor:&apos;green&apos; }}&gt;3&lt;/Text&gt;
+&lt;/View&gt;
+</code></pre><p>&#x6548;&#x679C;&#x662F;&#x8FD9;&#x6837;&#xFF08;&#x867D;&#x7136;&#x6BD4;&#x8F83;&#x5EFA;&#x8BAE;&#x4F60;&#x81EA;&#x5DF1;&#x6572;&#x4E00;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x4F46;&#x662F;&#x8FD8;&#x662F;&#x628A;&#x56FE;&#x653E;&#x5728;&#x8FD9;&#x91CC;&#x6BD4;&#x8F83;&#x597D;&#xFF09;&#xFF1A;</p>
+<p><img src="images/5.4.png" alt="PNG">  </p>
+<p>&#x81F3;&#x4E8E;&#x4E3A;&#x5565;&#x8FD9;&#x4E2A;&#x56FE;&#x770B;&#x8D77;&#x6765;&#x6709;&#x4E9B;&#x5927;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x4F5C;&#x8005;&#x541B;&#x628A;&#x6574;&#x4E2A;&#x6A21;&#x62DF;&#x5668;&#x7684;&#x5C4F;&#x5E55;&#x622A;&#x8FC7;&#x6765;&#x4E86;&#xFF0C;&#x6BD5;&#x7ADF;&#x8981;&#x7A81;&#x51FA;&#x5143;&#x7D20;&#x5728;&#x4E3B;&#x8F74;&#x4E2D;&#x95F4;&#x7684;&#x6548;&#x679C;&#x561B;&#x3002;</p>
+<p>&#x8FD9;&#x4E9B;&#x8FD8;&#x4E0D;&#x662F;&#x5168;&#x90E8;&#xFF0C;&#x6BD5;&#x7ADF;&#x4E0D;&#x53EF;&#x80FD;&#x6BCF;&#x4E2A;&#x6574;&#x4F53;&#x90FD;&#x662F;&#x7EDF;&#x4E00;&#x7684;&#xFF0C;&#x5185;&#x90E8;&#x603B;&#x662F;&#x8981;&#x6709;&#x4E9B;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;&#x62FF;&#x4E0A;&#x9762;&#x7684;&#x90A3;&#x4E2A;&#x4F8B;&#x5B50;&#x6765;&#x8BF4;&#xFF1A;&#x5982;&#x679C;&#x6211;&#x4E0D;&#x60F3;&#x8BA9;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x90FD;&#x5728;&#x6B21;&#x8F74;&#x7684;&#x672B;&#x5C3E;&#xFF0C;&#x90A3;
+&#x8BE5;&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF1F; &#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>alignSelf</code>&#x4E86;&#x3002;<code>alignSelf</code>&#x53EF;&#x4EE5;&#x4F7F;&#x5BB9;&#x5668;&#x91CC;&#x7684;&#x5143;&#x7D20;&#x548C;&#x7236;&#x6837;&#x5F0F;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x7B80;&#x5355;&#x7684;&#x6539;&#x9020;&#x4E00;&#x4E0B;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code>&lt;Text style={{ backgroundColor:&apos;green&apos;, alignSelf:&apos;flex-start&apos; }}&gt;3&lt;/Text&gt;
+</code></pre><p>&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7B2C;&#x4E09;&#x4E2A;<code>Text</code>&#x5728;&#x524D;&#x9762;&#x4E86;&#x3002;&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><img src="images/5.5.png" alt="PNG">  </p>
+<p>&#x6211;&#x4EEC;&#x518D;&#x8BF4;&#x56DE;<code>flex</code>&#x3002;&#x6211;&#x4EEC;&#x77E5;&#x9053;&#xFF0C;<code>flex</code>&#x540E;&#x9762;&#x662F;&#x63A5;&#x6570;&#x5B57;&#x7684;&#xFF0C;&#x6570;&#x5B57;&#x662F;&#x8FD9;&#x4E2A;&#x5BB9;&#x5668;&#x6240;&#x5360;&#x7684;&#x6BD4;&#x4F8B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x6570;&#x5B57;&#x8D8A;&#x5927;&#xFF0C;&#x5BB9;&#x5668;&#x6240;&#x5360;&#x6BD4;&#x4F8B;&#x4E5F;&#x5C31;&#x8D8A;&#x5927;&#x3002;</p>
+<p>&#x4E0D;&#x8FC7;&#xFF0C;&#x5982;&#x679C;&#x53EA;&#x6709;<code>flex: 1</code>&#x7684;&#x8BDD;&#xFF0C;&#x5B83;&#x4F1A;&#x81EA;&#x5DF1;&#x5360;&#x9886;&#x6240;&#x6709;&#x5730;&#x76D8;&#xFF0C;&#x8C01;&#x53EB;&#x6CA1;&#x6709;&#x5176;&#x5B83;&#x7684;&#x5BB9;&#x5668;&#x548C;&#x5B83;&#x62A2;&#x5730;&#x76D8;&#x5462;&#x3002;</p>
+<h3 id="position">position</h3>
+<p>&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;App&#x6765;&#x8BF4;&#xFF0C;&#x4E0D;&#x53EF;&#x80FD;&#x53EA;&#x7528;&#x5230;Flexbox&#xFF0C;&#x8FD8;&#x5F97;&#x7528;&#x5230;&#x5176;&#x4ED6;&#x7684;&#x5E03;&#x5C40;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>&#x9996;&#x5148;&#x6765;&#x770B;&#x7EDD;&#x5BF9;&#x5E03;&#x5C40;absolute&#xFF0C;&#x7EDD;&#x5BF9;&#x5E03;&#x5C40;&#x8FD9;&#x540D;&#x5B57;&#x542C;&#x8D77;&#x6765;&#x633A;&#x9738;&#x6C14;&#x7684;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x4E5F;&#x786E;&#x5B9E;&#x9738;&#x6C14;&#xFF0C;&#x89C4;&#x5B9A;&#x5143;&#x7D20;&#x5728;&#x90A3;&#x91CC;&#xFF0C;&#x90A3;&#x5143;&#x7D20;&#x5C31;&#x5F97;&#x5728;&#x90A3;&#x91CC;&#x5F85;&#x7740;&#x3002;
+&#x6211;&#x4EEC;&#x4F7F;&#x7528;<code>top,bottom,left,right</code>&#x6765;&#x58F0;&#x660E;&#x5143;&#x7D20;&#x7684;&#x4E0A;&#x4E0B;&#x5DE6;&#x53F3;&#x8DDD;&#x5BB9;&#x5668;&#x6709;&#x591A;&#x5C11;&#x8DDD;&#x79BB;&#xFF0C;&#x4ECE;&#x800C;&#x5C06;&#x5143;&#x7D20;&#x5B9A;&#x5728;&#x90A3;&#x4E2A;&#x4F4D;&#x7F6E;&#x3002;&#x6211;&#x4EEC;&#x5728;&#x7528;&#x7EDD;&#x5BF9;&#x5E03;&#x5C40;&#x7684;&#x65F6;&#x5019;
+&#x9700;&#x8981;&#x544A;&#x8BC9;&#x5143;&#x7D20;&#x5B83;&#x7684;&#x5E03;&#x5C40;&#x65B9;&#x5F0F;&#x662F;&#x7EDD;&#x5BF9;&#x5E03;&#x5C40;&#xFF0C;&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code>&lt;Text style={{ position: &apos;absolute&apos;, width: 50, height: 50 }}&gt;&lt;/Text&gt;
+</code></pre><p>&#x53EA;&#x4E0D;&#x8FC7;&#x6211;&#x4EEC;&#x5F97;&#x4E8B;&#x5148;&#x58F0;&#x660E;&#x5143;&#x7D20;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#xFF0C;&#x4E0D;&#x7136;&#x6837;&#x5F0F;&#x4F1A;&#x53D8;&#x5F97;&#x5F88;&#x5947;&#x602A;&#xFF0C;&#x7136;&#x540E;&#x6765;&#x5B9A;&#x4F4D;&#x5143;&#x7D20;&#x7684;&#x4F4D;&#x7F6E;&#xFF1A;</p>
+<pre><code>&lt;Text style={{ position: &apos;absolute&apos;, width:50, height: 50, bottom: 20, left:10 }}&gt;233&lt;/Text&gt;
+</code></pre><p>&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><img src="images/5.6.png" alt="PNG">  </p>
+<p>&#x8FD8;&#x6709;&#x4E00;&#x70B9;&#x5F97;&#x6CE8;&#x610F;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7ED9;&#x7236;&#x5BB9;&#x5668;&#x4E00;&#x4E2A;&#x5408;&#x9002;&#x7684;&#x9AD8;&#x5EA6;&#x548C;&#x5BBD;&#x5EA6;&#xFF0C;&#x6BD4;&#x5982;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code>&lt;View style={{ height:500,width:500 }}&gt;
+    &lt;Text style={{ position: &apos;absolute&apos;, bottom: 20, left:10, width:50, height: 50 }}&gt;233&lt;/Text&gt;
+    &lt;Text style={{ position: &apos;absolute&apos;, bottom: 20, left:80, width:50, height: 50 }}&gt;233&lt;/Text&gt;
+&lt;/View&gt;
+</code></pre><p>&#x65E2;&#x7136;&#x6709;&#x7EDD;&#x5BF9;&#x5E03;&#x5C40;&#xFF0C;&#x5C31;&#x6709;&#x76F8;&#x5BF9;&#x5E03;&#x5C40;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x4E9B;&#x96BE;&#x7528;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x628A;&#x76F8;&#x5BF9;&#x5E03;&#x5C40;&#x7406;&#x89E3;&#x6210;&#x4E00;&#x4E2A;&#x6D41;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;<code>bottom,right</code>&#x4E0D;&#x80FD;&#x7528;&#x3002;
+&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>top,left</code>&#x66F4;&#x6539;&#x5143;&#x7D20;&#x5728;&#x6D41;&#x4E2D;&#x7684;&#x4E0A;&#xFF0C;&#x5DE6;&#x504F;&#x79FB;&#x5927;&#x5C0F;&#xFF08;top,left&#x521D;&#x59CB;&#x503C;&#x4E3A;0&#xFF09;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code>&lt;View style={{height:500,width:500}}&gt;
+    &lt;Text style={{ position: &apos;relative&apos;,  left:10, width:50, height: 50 }}&gt;233&lt;/Text&gt;
+    &lt;Text style={{ position: &apos;relative&apos;,  left:60, width:50, height: 50 }}&gt;233&lt;/Text&gt;
+    &lt;Text style={{ position: &apos;relative&apos;,  left:120, width:50, height: 50 }}&gt;233&lt;/Text&gt;
+&lt;/View&gt;
+</code></pre><p><img src="images/5.7.png" alt="PNG"> </p>
+<h2 id="dimensions">Dimensions</h2>
+<p>&#x5728;React Native&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x80FD;&#x7528;<code>width: 60%</code>&#x4E4B;&#x7C7B;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x8FDB;&#x884C;&#x5E03;&#x5C40;&#xFF0C;&#x90A3;&#x8BE5;&#x600E;&#x4E48;&#x529E;&#x561E;&#xFF1F;&#x55EF;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6362;&#x4E2A;&#x65B9;&#x5F0F;&#xFF0C;&#x90A3;&#x5C31;&#x662F;<code>Dimensions</code>&#xFF0C;
+&#x6211;&#x4EEC;&#x6765;&#x8BF7;Dimensions&#x51FA;&#x573A;&#xFF1A;</p>
+<pre><code>import {
+  Dimensions
+} from &apos;react-native&apos;;
+</code></pre><p>&#x7136;&#x540E;&#x83B7;&#x53D6;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x7528;&#x89E3;&#x6784;&#x8D4B;&#x503C;&#x7684;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<pre><code>const { width, height } = Dimensions.get(&quot;window&quot;);
+</code></pre><p>&#x7136;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6837;&#x5F0F;&#x4E2D;&#x4F7F;&#x7528;&#x55BD;&#xFF1A;</p>
+<pre><code>&lt;View style={{ width: width * 0.5 ,height: height * 0.5 }}&gt;&lt;/View&gt;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="一些一定要知道的组件.html" class="navigation navigation-prev " aria-label="Previous page: 第四章. 一些一定要知道的组件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="储存.html" class="navigation navigation-next " aria-label="Next page: 第六章. 储存">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第五章. 是时候说说样式与布局了","level":"1.6","depth":1,"next":{"title":"第六章. 储存","level":"1.7","depth":1,"path":"储存.md","ref":"储存.md","articles":[]},"previous":{"title":"第四章. 一些一定要知道的组件","level":"1.5","depth":1,"path":"一些一定要知道的组件.md","ref":"一些一定要知道的组件.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"茯苓猫","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React Native小黄书","gitbook":"*"},"file":{"path":"是时候说说样式与布局了.md","mtime":"2017-04-05T11:57:20.612Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-19T11:49:55.005Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
