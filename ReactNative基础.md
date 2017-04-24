@@ -66,8 +66,9 @@ class Hello extends Component {
 
 ```
 这是一个比较完整的组件，包含了Props和State(状态)。
-在高阶组件中使用state，我们需要使用constructor来初始化一下~
-当然，如果不需要这些，则不用初始化。就像这样：
+在高阶组件中使用state和props，我们需要使用constructor来初始化一下~
+这里的super(props)是为了可以在constructor使用`this.props`，
+当然，如果不需要这些，则不用写（虽然没写，但是按照ES6规范，class需要有一个constructor，所以constructor会被自动加上）。就像这样：
 
 ```
 class Hello extends Component {
@@ -112,6 +113,7 @@ return (
     <Text>我想吃{this.props.food}</Text>
 )
 ```
+
 在props后面跟着的是属性的名字
 
 接下来，我们写另一个组件Dinner，并引入Eat组件：
