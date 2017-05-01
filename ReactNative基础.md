@@ -30,7 +30,7 @@ JSX就是这样简单，我们只需要一个`<`加上组件名字和`/>`就可�
 下面是一个无状态组件的例子：
 
 ```
-function Hello() {
+const Hello = () => {
     return (
         <Text>我是一个无状态组件</Text>
     )
@@ -41,7 +41,7 @@ function Hello() {
 如果想要用Props(属性)，要传一个props参数，就像这样
 
 ```
-function Hello(props) {...}
+const Hello = (props) => {...}
 
 ```
 如果不知道什么是Props的话，别着急，一会儿会说到的。
