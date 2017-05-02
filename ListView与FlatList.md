@@ -141,7 +141,7 @@ getItemLayout={(data, index) => (
 
 介绍的最后一个组件在当前版本（0.43）有点小问题`onEndReached`有时候会不触发，所以只好期待下一个版本喽
 
-`onEndReached`是当列表滑到尾部会调用的一个属性（距离尾部不足这个onEndReachedThreshold的大小），我们可以用它来更新列表数据什么的：
+`onEndReached`是当列表滑到尾部会调用的一个属性（距离尾部不足这个`onEndReachedThreshold`的大小），我们可以用它来更新列表数据什么的：
 
 ```
 onEndReached={()=>{
@@ -149,7 +149,7 @@ onEndReached={()=>{
 }}
 ```
 
-与onEndReachedThreshold是个好基友，我们在里边放些数字，如果滑动列表就好触发`onEndReached`的话，我们需要设置`onEndReachedThreshold`的值
+与`onEndReachedThreshold`是个好基友，我们在里边放些数字，如果滑动列表就好触发`onEndReached`的话，我们需要设置`onEndReachedThreshold`的值
 为0
 ```
 onEndReachedThreshold={0}

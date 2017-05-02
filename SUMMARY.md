@@ -12,8 +12,7 @@
 * [第七章. ListView与FlatList](ListView与FlatList.md)
 * [第八章. 导航器(React Navigation)](导航器.md)
 * [第九章. 网络](网络.md)
-* [第十章. Mobx](Mobx.md)
-* [第十一章. 打包应用](打包应用.md)
+* [第十章. 打包应用](打包应用.md)
  
 * [附录： 样式](附录：样式.md)
 
