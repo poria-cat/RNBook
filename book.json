@@ -1,4 +1,33 @@
 {
   "title": "React Native小黄书",
-  "author" : "茯苓猫"
+  "author": "茯苓猫",
+  "plugins": [
+    "donate",
+    "sharing"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper"
+      ]
+    },
+    "donate": {
+      "wechat": "/images/donate/wechat.jpg",
+      "alipay": "/images/donate/alipay.jpg",
+      "title": "",
+      "button": "捐赠按钮",
+      "alipayText": "支付宝",
+      "wechatText": "微信"
+    }
+  }
 }
