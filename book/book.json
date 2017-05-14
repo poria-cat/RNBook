@@ -1,5 +1,5 @@
 {
-  "title": "React Native小黄书",
+  "title": "React Native小书",
   "author": "茯苓猫",
   "plugins": [
     "donate",
@@ -25,7 +25,7 @@
       "wechat": "/images/donate/wechat.jpg",
       "alipay": "/images/donate/alipay.jpg",
       "title": "",
-      "button": "捐赠按钮",
+      "button": "打赏按钮",
       "alipayText": "支付宝",
       "wechatText": "微信"
     }
