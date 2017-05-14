@@ -3,7 +3,8 @@
   "author": "茯苓猫",
   "plugins": [
     "donate",
-    "sharing"
+    "sharing",
+    "editlink"
   ],
   "pluginsConfig": {
     "sharing": {
@@ -28,6 +29,10 @@
       "button": "打赏按钮",
       "alipayText": "支付宝",
       "wechatText": "微信"
+    },
+    "editlink": {
+      "base": "https://github.com/Elvenisboy/RNBook/blob/master/book/",
+      "label": "编辑本页"
     }
   }
 }
