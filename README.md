@@ -3,6 +3,9 @@
 《React Native小书》是一本关于React Native的入门向的开源书籍，希望这本书可以帮助更多的人学会React Native
 并能够开发自己的App
 
+## 在线阅读
+
+[在线阅读](http://rnbook.yeziker.com/)
 ## 关于
 
 由于React Native迭代很快，所以茯苓选择了开源书籍的方式，以便可以即时更新。如果亲爱的读者有发现什么漏洞的话，一定要发个Issue哦~~
