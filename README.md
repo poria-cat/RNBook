@@ -1,4 +1,4 @@
-## React Native 小书
+## React Native 小书   [![react native](https://img.shields.io/badge/use-react%20native-blue.svg)](http://facebook.github.io/react-native/) [![language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87-red.svg)](https://github.com/Elvenisboy/RNBook) 
 
 《React Native小书》是一本关于React Native的入门向的开源书籍，希望这本书可以帮助更多的人学会React Native
 并能够开发自己的App
