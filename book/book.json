@@ -4,7 +4,8 @@
   "plugins": [
     "donate",
     "sharing",
-    "editlink"
+    "editlink",
+    "baidu"
   ],
   "pluginsConfig": {
     "sharing": {
@@ -33,6 +34,9 @@
     "editlink": {
       "base": "https://github.com/Elvenisboy/RNBook/blob/master/book/",
       "label": "编辑本页"
-    }
+    },
+     "baidu": {
+            "token": "9bdd92551e39faf7a4ec6f496e67b498"
+        }
   }
 }
