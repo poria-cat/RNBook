@@ -1,3 +1,8 @@
+---
+description: 带你了解ListView及FlatList
+---
+
+
 # ListView与FlatList
 
 当你需要给用户在一个页面展示一堆数据的时候，一个一个去渲染对性能来说真的不好，所以我们使用React Native内置的列表

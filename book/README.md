@@ -1,3 +1,7 @@
+---
+description: 《React Native小书》带你入门React Native世界
+---
+
 # 序言
 
 嘿，欢迎进入React Native的世界，相信我，这会是一种酷酷的App开发方式。

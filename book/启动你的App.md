@@ -1,3 +1,7 @@
+---
+description: 启动你的第一个React Native 应用
+---
+
 # 启动你的App
 
 本章提要
