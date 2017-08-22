@@ -153,7 +153,7 @@ const guid = () => {
 constructor(props){
       super(props);
       this.state = {
-        text: null
+        title: null
       };
     }
 ```       
