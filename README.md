@@ -5,7 +5,7 @@
 
 ## 在线阅读
 
-[在线阅读](http://rnbook.yeziker.com/)
+[在线阅读](https://elvenisboy.gitbooks.io/rnbook/content/)
 ## 关于
 
 由于React Native迭代很快，所以茯苓选择了开源书籍的方式，以便可以即时更新。如果亲爱的读者有发现什么漏洞的话，一定要发个Issue哦~~
